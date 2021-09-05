@@ -1,0 +1,127 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 400px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+#woman {
+  margin-left: 10px;
+}
+
+.mb-4 {
+  margin-bottom: 30px;
+}
+
+.mb-3 {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+
+.mb-4 {
+  margin-top: 50px;
+
+}
+
+#hard {
+  text-align: left;
+
+}
+
+.validity {
+  margin-bottom: 20px;
+}
+
+#helppop {
+  text-align: right;
+  float: right;
+}
+
+#helppop0 {
+  text-align: right;
+  float: right;
+}
+
+#mb-5 {
+  background-color: #2d32fd;
+  color: #f5f5f5;
+  border-radius: 10px;
+  height: 50px;
+  text-align: center;
+}
+
+#mb_text {
+  line-height: 50px;
+}
+
+#startday {
+  background-color: #2d32fd;
+  color: #f5f5f5;
+  border-radius: 10px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#mb-6 {
+  background-color: #f9fd2d;
+  color: #0c0c0c;
+  border-radius: 10px;
+  height: 50px;
+  text-align: center;
+
+}
+
+#mb-6 {
+  margin-top: 20px;
+}
+
+#menu:hover {
+  background-color: #2d32fd;
+}
+
+/* input 넘버 지정시 옆에 화살표 없애는 css 
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+} */
